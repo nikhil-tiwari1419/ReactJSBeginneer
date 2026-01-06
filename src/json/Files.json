@@ -1,0 +1,20 @@
+[
+  {
+    "component": "Card",
+    "type": "Presentational Component",
+    "receivesProps": {
+      "image": "string (URL)",
+      "Name": "string",
+      "CD_no": "string | number",
+      "email_id": "string",
+      "location": "string",
+      "phone": "string | number",
+      "date": "string"
+    },
+    "usagePurpose": [
+      "User profile card",
+      "Reusable UI component",
+      "Props-driven rendering"
+    ]
+  }
+]

@@ -1,0 +1,29 @@
+ [
+  {
+    "concept": "Context Management",
+    "definition": "Context is used to share global data without prop drilling.",
+    "whenToUse": [
+      "Theme management",
+      "User authentication",
+      "Language settings"
+    ]
+  },
+  {
+    "concept": "Core Elements",
+    "definition": "Context API has three main parts.",
+    "whenToUse": [
+      "createContext",
+      "Provider",
+      "useContext"
+    ]
+  },
+  {
+    "concept": "Advantages",
+    "definition": "Makes state accessible across components.",
+    "whenToUse": [
+      "Cleaner code",
+      "No prop drilling",
+      "Better maintainability"
+    ]
+  }
+]

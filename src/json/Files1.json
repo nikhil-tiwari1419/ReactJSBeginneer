@@ -1,0 +1,32 @@
+[
+  {
+    "concept": "Node Abstraction",
+    "definition": "Node Abstraction means hiding complex UI structure (DOM nodes) behind reusable components so the parent does not care about internal HTML/JSX.",
+    "problemWithoutAbstraction": {
+      "description": "UI code becomes large, repetitive, and hard to maintain",
+      "issues": [
+        "Repeated JSX nodes",
+        "Tightly coupled UI structure",
+        "Difficult to update or reuse",
+        "Poor readability"
+      ]
+    },
+    "solutionWithNodeAbstraction": {
+      "description": "Wrap UI nodes inside a component and expose only a clean interface using props or children",
+      "benefits": [
+        "Reusable UI blocks",
+        "Encapsulation of DOM structure",
+        "Cleaner parent components",
+        "Easy maintenance"
+      ]
+    },
+    "abstractedNode": {
+      "componentName": "Card",
+      "responsibility": [
+        "Render layout",
+        "Handle styling",
+        "Display data via props"
+      ]
+    }
+  }
+]
