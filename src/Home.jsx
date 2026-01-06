@@ -9,7 +9,7 @@ function Home() {
     const navigation = useNavigate();
     const [mode, setmode] = useState("Props");
     return (
-        <div className='min-h-screen flex-col mx-auto w-full max-w-md flex bg-gray-200 pb-20'>
+        <div className='min-h-screen flex-col mx-auto w-full max-w-4xl flex bg-gray-200 pb-20'>
 
             <h1 className='text-2xl font-bold text-center p-4'>
                 React Fundamental + Components Structure
