@@ -16,7 +16,7 @@ function Props1() {
     },
     {
       name: "Great Wall of China",
-      img: "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwLnbYKgre9ogGhzCq0a-9RmrKmbZDkvGWQgCnQQiwImZafIESUsFaBHjA2odh8wMZxL8gAHTCPEdJ3ovzO6T8GR-eoSYzhgdrijPPkaNvI7fnNG3_ynM5QNkQXjYqGFqUo2LNN1Q=s680-w680-h510-rw",
+      img: "https://archaeologymag.com/wp-content/uploads/historic-monuments-1.jpg",
       code_no: "CN002",
       email_id: "info@greatwall.cn",
       ph_no: "+86 10 6162 6022",
@@ -73,3 +73,6 @@ function Props1() {
 }
 
 export default Props1;
+
+
+
